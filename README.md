@@ -1,6 +1,6 @@
 # go-mod-di
 
-Simple dependency injection container originally implemented by [github.com/michaelestrin](https://github.com/michaelestrin) for [edgexfoundry/go-mod-bootstrap](https://github.com/edgexfoundry/go-mod-bootstrap) in December 2019 and extracted here in June 2023 for general reuse.
+Simple dependency injection container originally implemented by [michaelestrin](https://github.com/michaelestrin) for [edgexfoundry/go-mod-bootstrap](https://github.com/edgexfoundry/go-mod-bootstrap) in December 2019 and extracted here in June 2023 for general reuse.
 
 Requires Go 1.18 or later.
 
@@ -50,3 +50,7 @@ Requires Go 1.18 or later.
 			fmt.Println(b.BarMessage)
 			fmt.Println(b.Foo.FooMessage)
 		}
+
+### Background
+
+[Dependency Injection in EdgeX Core Services](https://wiki.edgexfoundry.org/display/FA/Core+Working+Group?preview=%2F329472%2F37912747%2Fdi201910.pdf)
