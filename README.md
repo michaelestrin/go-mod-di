@@ -10,7 +10,7 @@ Requires Go 1.18 or later.
 
 		import (
 			"fmt"
-			"github.com/michaelestrin/go-mod-di/container"
+			"github.com/michaelestrin/go-mod-di/pkg/di"
 		)
 
 		type foo struct {
