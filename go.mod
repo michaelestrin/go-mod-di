@@ -1,4 +1,4 @@
-module go-mod-di
+module github.com/michaelestrin/go-mod-di
 
 go 1.18
 
