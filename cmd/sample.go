@@ -18,7 +18,7 @@ package main
 
 import (
 	"fmt"
-	"go-mod-di/pkg/di"
+	"github.com/michaelestrin/go-mod-di/pkg/di"
 )
 
 type Foo struct {

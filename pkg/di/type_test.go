@@ -35,5 +35,5 @@ func TestTypeInstanceToNameReturnsExpectedPackagePlusStructTypeName(t *testing.T
 
 	result := TypeInstanceToName(s{})
 
-	assert.Equal(t, "go-mod-di/pkg/di.s", result)
+	assert.Equal(t, "github.com/michaelestrin/go-mod-di/pkg/di.s", result)
 }
